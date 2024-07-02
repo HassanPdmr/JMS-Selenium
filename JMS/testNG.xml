@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="utilities.JmsListener">
+
+        </listener>
+    </listeners>
+
+    <test verbose="1" preserve-order="true" name="Home page testcase">
+        <classes>
+
+            <class name="tests.HomePageTest">
+
+            </class>
+
+        </classes>
+
+
+    </test>
+
+    <test name="Add Journal testcase">
+        <classes>
+
+            <class name="tests.AddJournalTest">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
